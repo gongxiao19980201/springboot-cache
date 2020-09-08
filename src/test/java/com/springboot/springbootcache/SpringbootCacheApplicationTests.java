@@ -32,6 +32,7 @@ class SpringbootCacheApplicationTests {
         payment.setSerial("144541215");
         redisTemplate01.opsForValue().set(payment.getId(),payment);
         System.out.print("创建分支");
+        System.out.println("主干添加");
     }
 
 
